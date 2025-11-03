@@ -1,4 +1,8 @@
 export const ENV = {
-  NODE_ENV: "",
-  API_URL: "",
+  DEV: {
+    API_URL: "www.dev.api.com",
+    ACCOUNT_ID: "dev_account_id",
+    DATABASE_ID: "dev_database_id",
+    AUTH_TOKEN: "dev_auth_token",
+  },
 };
