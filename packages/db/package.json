@@ -10,13 +10,11 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@cloudflare/d1": "^1.4.1",
     "@cloudflare/workers-types": "^4.20251014.0",
     "drizzle-kit": "^0.31.6",
     "drizzle-orm": "^0.44.7"
   },
   "devDependencies": {
-    "@cloudflare/d1": "^1.4.1",
     "drizzle-kit": "^0.20.17"
   }
 }
