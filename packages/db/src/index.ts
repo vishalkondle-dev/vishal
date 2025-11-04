@@ -6,3 +6,5 @@ export type DB = DrizzleD1Database;
 export function createDb(d1: D1Database) {
   return drizzle(d1);
 }
+
+export * as schema from "./schema";

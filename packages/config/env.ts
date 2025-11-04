@@ -1,8 +1,14 @@
 export const ENV = {
   DEV: {
-    API_URL: "www.dev.api.com",
-    ACCOUNT_ID: "dev_account_id",
-    DATABASE_ID: "dev_database_id",
-    AUTH_TOKEN: "dev_auth_token",
+    API_URL: process.env.API_URL ?? "",
+    ACCOUNT_ID: process.env.ACCOUNT_ID ?? "",
+    DATABASE_ID: process.env.DATABASE_ID ?? "",
+    AUTH_TOKEN: process.env.AUTH_TOKEN ?? "",
+  },
+  PROD: {
+    API_URL: process.env.PROD_API_URL ?? "",
+    ACCOUNT_ID: process.env.PROD_ACCOUNT_ID ?? "",
+    DATABASE_ID: process.env.PROD_DATABASE_ID ?? "",
+    AUTH_TOKEN: process.env.PROD_AUTH_TOKEN ?? "",
   },
 };
